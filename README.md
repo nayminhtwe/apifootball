@@ -13,7 +13,7 @@ api-football.com API Container for Laravel
 Via Composer
 
 ``` bash
-$ composer require nayminhtwe/apifootball dev-master
+$ composer require naymin/api-football
 ```
 
 ## Usage
