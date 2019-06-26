@@ -1,0 +1,20 @@
+{
+    "name": "naymin/api-football",
+    "description": "api-football.com API container for laravel(Highly Inspired by grambas/football-data)",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nay Min Htwe",
+            "email": "konayminhtwe@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Naymin\\APIfootball\\": "src"
+        }
+    }
+}
