@@ -109,6 +109,7 @@ Football::getMatchesForTeam(int $teamID)
  * List all matches for a particular competition wthdate
  *
  * @param integer $leagueID
+ * @param date $date
  * @return Collection
  */
 Football::getLeagueMatchesWithDate(int $leagueID,$date)
