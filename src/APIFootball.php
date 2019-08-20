@@ -134,5 +134,18 @@ class APIFootball
         return collect($matches->api);
     }
 
+    /**
+     * List all matches for a particular competition with date
+     *
+     * @param integer $leagueID
+     * @param date $date
+     * @return Collection
+     */
+    public function getLeagueMatchesWithDate(int $leagueID,$date)
+    {
+        $leagueMatches = $this->run("v2/fixtures/league/{$leagueID}/{$date}");
+        return collect($leagueMatches->api);
+    }
+
 
 }
